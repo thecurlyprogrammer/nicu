@@ -1,5 +1,4 @@
 .nav-item{
-    color: var(--text-200);
     font-size: 16px;
     padding: 8px 16px;
     margin-right: 16px;
@@ -18,26 +17,68 @@
     box-sizing: border-box;
 }
 
-.btn-primary-100{
+button{
     border: 0;
-    background: var(--primary-100);
-    color: var(--text-100);
     width: 128px;
     height: 32px;
 }
 
-.btn-primary-200{
-    border: 0;
-    background: var(--primary-200);
-    color: var(--text-200);
-    width: 128px;
-    height: 32px;
+.primary{
+    background: var(--nicu-primary);
+    color: var(--nicu-primary-contrast);
 }
 
-.btn-primary-300{
-    border: 0;
-    background: var(--primary-300);
-    color: var(--text-200);
-    width: 128px;
-    height: 32px;
+.primary:hover{
+    background: var(--nicu-primary-tint);
+    color: var(--nicu-primary-contrast);
+}
+
+.secondary{
+    background: var(--nicu-secondary);
+    color: var(--nicu-secondary-contrast);
+}
+
+.secondary:hover{
+    background: var(--nicu-secondary-tint);
+    color: var(--nicu-secondary-contrast);
+}
+
+.tertiary{
+    background: var(--nicu-tertiary);
+    color: var(--nicu-tertiary-contrast);
+}
+
+.tertiary:hover{
+    background: var(--nicu-tertiary-tint);
+    color: var(--nicu-tertiary-contrast);
+}
+
+.success{
+    background: var(--nicu-success);
+    color: var(--nicu-success-contrast);
+}
+
+.success:hover{
+    background: var(--nicu-success-tint);
+    color: var(--nicu-success-contrast);
+}
+
+.danger{
+    background: var(--nicu-danger);
+    color: var(--nicu-danger-contrast);
+}
+
+.danger:hover{
+    background: var(--nicu-danger-tint);
+    color: var(--nicu-danger-contrast);
+}
+
+.warning{
+    background: var(--nicu-warning);
+    color: var(--nicu-warning-contrast);
+}
+
+.warning:hover{
+    background: var(--nicu-warning-tint);
+    color: var(--nicu-warning-contrast);
 }

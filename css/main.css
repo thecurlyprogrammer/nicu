@@ -19,6 +19,57 @@
     --font-default: 'Noto Sans Display', sans-serif;
 }
 
+:root {
+	--nicu-primary: #27374D;
+	--nicu-primary-contrast: #ffffff;
+	--nicu-primary-shade: #1f2a3c;
+	--nicu-primary-tint: #395067;
+
+	--nicu-secondary: #526D82;
+	--nicu-secondary-contrast: #ffffff;
+	--nicu-secondary-shade: #485f72;
+	--nicu-secondary-tint: #6e859a;
+
+	--nicu-tertiary: #9DB2BF;
+	--nicu-tertiary-contrast: #000000;
+	--nicu-tertiary-shade: #8a9fad;
+	--nicu-tertiary-tint: #aec3d1;
+
+	--nicu-success: #4CAF50; /* Verde */
+	--nicu-success-contrast: #ffffff;
+	--nicu-success-shade: #45a447;
+	--nicu-success-tint: #5cb85c;
+
+	--nicu-warning: #FFC107; /* Giallo */
+	--nicu-warning-contrast: #000000;
+	--nicu-warning-shade: #e0a800;
+	--nicu-warning-tint: #ffca28;
+
+	--nicu-danger: #FF5733; /* Rosso */
+	--nicu-danger-contrast: #ffffff;
+	--nicu-danger-shade: #e05e5e;
+	--nicu-danger-tint: #ff7a7a;
+
+	--nicu-light: #DDE6ED;
+	--nicu-light-contrast: #000000;
+	--nicu-light-shade: #cad4dc;
+	--nicu-light-tint: #e9f0f4;
+
+	--nicu-medium: #aaaaaa;
+	--nicu-medium-contrast: #000000;
+	--nicu-medium-shade: #959595;
+	--nicu-medium-tint: #b9b9b9;
+
+	--nicu-dark: #444444;
+	--nicu-dark-contrast: #ffffff;
+	--nicu-dark-shade: #3d3d3d;
+	--nicu-dark-tint: #585858;
+}
+
+
+
+
+
 html, body{
     margin: 0;
     padding: 0;

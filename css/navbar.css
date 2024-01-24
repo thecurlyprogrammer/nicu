@@ -1,5 +1,10 @@
 nav{
     height: 64px;
+    background: var(--nicu-secondary);
+}
+
+nav a{
+    color: var(--nicu-secondary-contrast);
 }
 
 nav .nav-container{
