@@ -52,10 +52,6 @@
 }
 
 .col > button{
-    border: 0;
-    background: var(--primary-200);
-    width: 128px;
-    height: 32px;
     align-self: flex-end;
 }
 
