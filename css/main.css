@@ -1,0 +1,25 @@
+@import url('grid.css');
+@import url('container.css');
+@import url('navbar.css');
+@import url('buttons.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;700&display=swap');
+
+:root {
+    --primary-100: #0077C2;
+    --primary-200: #59a5f5;
+    --primary-300: #c8ffff;
+    --accent-100: #00BFFF;
+    --accent-200: #00619a;
+    --text-100: #333333;
+    --text-200: #5c5c5c;
+    --bg-100: #FFFFFF;
+    --bg-200: #f5f5f5;
+    --bg-300: #cccccc;
+    --font-default: 'Noto Sans Display', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    color: var(--text-100);
+}

@@ -1,0 +1,6 @@
+.container {
+    background: var(--bg-200);
+    padding: 16px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}

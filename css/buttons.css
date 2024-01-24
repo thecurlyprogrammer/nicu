@@ -1,0 +1,19 @@
+.nav-item{
+    color: var(--text-100);
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 16px;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+}
+
+.nav-item:last-child{
+    margin-right: 0px;
+}
+
+.nav-brand img{
+    height: 100%;
+    width: auto;
+    padding: 8px;
+    box-sizing: border-box;
+}
