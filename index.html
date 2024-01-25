@@ -8,30 +8,42 @@
     <title>Nicu - CSS Framework &#129514;</title>
 </head>
 
-<body>
-    <nav>
+<!-- Add 'inspect' class to show border of components -->
+
+<body class="">
+    <nav class="nav" role="navigation">
         <div class="nav-container">
-            <div class="brand">
-                <a class="nav-brand" href="#">
+            <div class="nav-brand">
+                <a class="brand" href="#">
                     <img src="./assets/logo_transparent.png" alt="Brand Logo">
                 </a>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
             </div>
-            <div class="nav">
+            <div class="nav-content">
                 <a class="nav-item" href="">Lorem ipsum dolor</a>
                 <a class="nav-item" href="">Lorem ipsum dolor</a>
                 <a class="nav-item" href="">Lorem ipsum dolor</a>
             </div>
-            <div class="nav">
+            <div class="nav-content">
                 <a class="nav-item" href="">+39 0000000000</a>
                 <a class="nav-item" href="">Contact</a>
             </div>
         </div>
     </nav>
     <main>
-        <div class="container">
+        <!-- Generic Container -->
+        <section class="container">
+
+            <!-- Row -->
             <div class="row gap-32">
+
+                <!-- Title and Description section -->
                 <div class="title">Title</div>
                 <div class="description">Description</div>
+
+                <!-- Column -->
                 <div class="col border w-3 t-6 m-12">
                     <div class="title">
                         Title
@@ -85,8 +97,8 @@
                     <button class="danger">Button</button>
                 </div>
             </div>
-        </div>
-        <div class="container">container due</div>
+        </section>
+    
     </main>
 
 </body>

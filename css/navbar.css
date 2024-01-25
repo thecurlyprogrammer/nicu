@@ -1,13 +1,9 @@
-nav{
+.nav {
     height: 64px;
     background: var(--nicu-secondary);
 }
 
-nav a{
-    color: var(--nicu-secondary-contrast);
-}
-
-nav .nav-container{
+.nav .nav-container {
     max-width: 1200px;
     height: 100%;
     display: flex;
@@ -19,16 +15,106 @@ nav .nav-container{
     box-sizing: border-box;
 }
 
-.brand{
+.nav-brand {
     height: 100%;
 }
 
-.nav{
+.nav-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.nav-container a{
+.nav-item {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+    color: var(--nicu-secondary-contrast);
+}
+
+.nav-container a {
     text-decoration: none;
+}
+
+.nav .hamburger {
+    display: none;
+}
+
+.hamburger {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    margin-right: 16px;
+}
+
+.bar::before,
+.bar::after,
+.bar {
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.bar::before {
+    top: 8px;
+}
+
+.bar::after {
+    top: 16px;
+}
+
+/* MOBILE SMALL */
+@media (min-width: 300px) and (max-width: 991px) {
+    .nav {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-brand {
+        height: 64px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--nicu-light);
+    }
+
+    .brand {
+        height: 100%;
+    }
+
+    .nav .hamburger {
+        display: block;
+    }
+
+    .nav .nav-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-content {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding: 16px;
+        width: 100%;
+        text-align: right;
+        box-sizing: border-box;
+    }
+}
+
+/* WIDE SCREEN */
+@media (min-width: 992px) {
+    .nav-item {
+        padding: 8px 16px;
+        margin-right: 16px;
+    }
 }
