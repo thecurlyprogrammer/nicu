@@ -1,17 +1,20 @@
-.row {
+.container > .row {
     max-width: 1200px;
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-.row.gap-16 .col{
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row.gap-16 > .col{
     padding: 8px 16px;
 }
 
-.row.gap-32 .col{
+.row.gap-32 > .col{
     padding: 16px 32px;
 }
 
@@ -33,6 +36,7 @@
 }
 
 .col {
+    font-family: var(--font-default);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -47,7 +51,6 @@
 }
 
 .col .title{
-    font-family: var(--font-default);
     font-weight: 600;
     font-size: 2rem;
     width: 100%;
@@ -55,7 +58,6 @@
 }
 
 .col .description{
-    font-family: var(--font-default);
     font-weight: 400;
     font-size: 1rem;
     width: 100%;

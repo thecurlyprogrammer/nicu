@@ -101,6 +101,7 @@
     .nav-content {
         width: 100%;
         flex-direction: column;
+        display:none;
     }
 
     .nav-item {
@@ -116,5 +117,6 @@
     .nav-item {
         padding: 8px 16px;
         margin-right: 16px;
-    }
+    } 
+
 }

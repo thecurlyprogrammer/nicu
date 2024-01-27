@@ -80,3 +80,12 @@ html, body{
 	background: var(--nicu-light-tint);
 	color: black;
 }
+
+.bg-light{
+	background: var(--nicu-light);
+}
+
+.bg-dark{
+	background: var(--nicu-dark);
+	color: var(--nicu-dark-contrast);
+}
