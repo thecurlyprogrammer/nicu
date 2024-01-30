@@ -1,0 +1,20 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    background: white;
+    border: 1px solid var(--nicu-tertiary);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.form input:focus{
+    border: 1px solid var(--nicu-secondary);
+    outline: 0;
+}
+
+.form label{
+    padding: 8px 0px;
+}
